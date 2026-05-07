@@ -1,20 +1,73 @@
 <!DOCTYPE html>
-<html>
-<head><title>Contact | SIGHT Lab</title></head>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | SIGHT Lab</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: Georgia, serif; background: #fff; color: #222; }
+  nav { background: #1a3a5c; padding: 0 30px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+  .logo { color:#fff; font-size:1.4rem; font-weight:bold; padding:15px 0; }
+  .logo span { color:#7ec8e3; }
+  nav ul { list-style:none; display:flex; flex-wrap:wrap; }
+  nav ul li a { color:#cde; text-decoration:none; padding:18px 14px; display:block; font-size:0.9rem; font-family:Arial,sans-serif; }
+  nav ul li a:hover { background:#2a5a8c; color:#fff; }
+  .page-title { background:#f4f8fc; padding:30px; border-bottom:2px solid #d0e4f0; }
+  .page-title h1 { font-size:1.8rem; color:#1a3a5c; }
+  .content { max-width:960px; margin:0 auto; padding:40px 30px; display:grid; grid-template-columns:1fr 1fr; gap:40px; }
+  .info-box h2 { color:#1a3a5c; font-size:1.2rem; border-bottom:2px solid #7ec8e3; padding-bottom:6px; margin-bottom:20px; }
+  .info-item { display:flex; gap:12px; margin-bottom:18px; align-items:flex-start; font-family:Arial,sans-serif; }
+  .icon { font-size:1.2rem; margin-top:2px; }
+  .info-item p { font-size:0.9rem; color:#444; line-height:1.6; }
+  .info-item strong { color:#1a3a5c; display:block; }
+  footer { background:#1a3a5c; color:#aac; text-align:center; padding:20px; font-family:Arial,sans-serif; font-size:0.85rem; margin-top:40px; }
+  @media(max-width:600px) { .content { grid-template-columns:1fr; } }
+</style>
+</head>
 <body>
-  <h1>SIGHT</h1>
-  <hr>
-  <a href="index.html">Home</a> |
-  <a href="pi.html">PI</a> |
-  <a href="members.html">Lab Members</a> |
-  <a href="publications.html">Publications</a> |
-  <a href="projects.html">Projects</a> |
-  <a href="news.html">News</a> |
-  <a href="contact.html">Contact</a>
-  <hr>
-  <h2>Contact</h2>
-  <p>SIGHT Lab</p>
-  <p>Email: To be updated</p>
-  <p>Address: To be updated</p>
+<nav>
+  <div class="logo">SIGHT <span>Lab</span></div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="pi.html">PI</a></li>
+    <li><a href="members.html">Lab Members</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<div class="page-title"><h1>Contact</h1></div>
+<div class="content">
+  <div class="info-box">
+    <h2>Get in Touch</h2>
+    <div class="info-item">
+      <span class="icon">👨‍🔬</span>
+      <p><strong>Principal Investigator</strong>Dr Pankaj K Jain<br>SIGHT Lab</p>
+    </div>
+    <div class="info-item">
+      <span class="icon">📧</span>
+      <p><strong>Email</strong>Add email address here</p>
+    </div>
+    <div class="info-item">
+      <span class="icon">📍</span>
+      <p><strong>Address</strong>Add lab address / institution here</p>
+    </div>
+    <div class="info-item">
+      <span class="icon">🔗</span>
+      <p><strong>Links</strong>
+        <a href="https://scholar.google.com/citations?user=UCbGVLcAAAAJ&hl=en" target="_blank" style="color:#2a6496;">Google Scholar</a> |
+        <a href="http://www.linkedin.com/in/pankaj-jain-phd-8b606b109" target="_blank" style="color:#2a6496;">LinkedIn</a>
+      </p>
+    </div>
+  </div>
+  <div class="info-box">
+    <h2>Join the Lab</h2>
+    <p style="font-family:Arial,sans-serif;font-size:0.9rem;color:#444;line-height:1.8;">We welcome motivated students and researchers interested in AI for healthcare, medical imaging, and biomedical signal processing.<br><br>
+    If you are interested in joining SIGHT Lab as a PhD student, MTech student, or intern, please send your CV and a brief statement of interest to our email.</p>
+  </div>
+</div>
+<footer> 2026 SIGHT Lab — Signal and Image Generation for Healthcare Technology</footer>
 </body>
 </html>

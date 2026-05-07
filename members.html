@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Publications | SIGHT Lab</title>
+<title>Lab Members | SIGHT Lab</title>
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
   body { font-family: Georgia, serif; background: #fff; color: #222; }
@@ -17,11 +17,11 @@
   .page-title h1 { font-size:1.8rem; color:#1a3a5c; }
   .content { max-width:960px; margin:0 auto; padding:40px 30px; }
   h2 { font-size:1.3rem; color:#1a3a5c; border-bottom:2px solid #7ec8e3; padding-bottom:6px; margin:30px 0 20px; }
-  .pub { background:#f4f8fc; border-left:4px solid #1a3a5c; padding:15px 20px; margin-bottom:15px; border-radius:0 6px 6px 0; font-family:Arial,sans-serif; }
-  .pub .authors { font-size:0.85rem; color:#555; margin-bottom:4px; }
-  .pub .title { font-weight:bold; color:#1a3a5c; font-size:0.95rem; margin-bottom:4px; }
-  .pub .venue { font-size:0.85rem; color:#2a6496; font-style:italic; }
-  .scholar-link { display:inline-block; margin-top:20px; background:#1a3a5c; color:#fff; padding:10px 20px; border-radius:6px; text-decoration:none; font-family:Arial,sans-serif; font-size:0.9rem; }
+  .members-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:20px; }
+  .member-card { background:#f4f8fc; border:1px solid #d0e4f0; border-radius:8px; padding:20px; text-align:center; }
+  .avatar { width:70px; height:70px; background:#1a3a5c; border-radius:50%; margin:0 auto 12px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:1.4rem; }
+  .member-card h3 { color:#1a3a5c; font-size:0.95rem; margin-bottom:4px; }
+  .member-card p { font-size:0.8rem; color:#666; font-family:Arial,sans-serif; }
   footer { background:#1a3a5c; color:#aac; text-align:center; padding:20px; font-family:Arial,sans-serif; font-size:0.85rem; margin-top:40px; }
 </style>
 </head>
@@ -38,26 +38,38 @@
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
-<div class="page-title"><h1>Publications</h1></div>
+<div class="page-title"><h1>Lab Members</h1></div>
 <div class="content">
-  <h2>Journal Articles</h2>
-  <div class="pub">
-    <div class="authors">Pankaj K Jain et al.</div>
-    <div class="title">Add publication title here</div>
-    <div class="venue">Journal Name, Year — Springer / Elsevier / MDPI</div>
+  <h2>Principal Investigator</h2>
+  <div class="members-grid">
+    <div class="member-card">
+      <div class="avatar">👨‍🔬</div>
+      <h3>Dr Pankaj K Jain</h3>
+      <p>Principal Investigator<br>PhD, IIT (BHU)</p>
+    </div>
   </div>
-  <div class="pub">
-    <div class="authors">Pankaj K Jain et al.</div>
-    <div class="title">Add publication title here</div>
-    <div class="venue">Journal Name, Year</div>
+  <h2>Research Students</h2>
+  <div class="members-grid">
+    <div class="member-card">
+      <div class="avatar">👩‍💻</div>
+      <h3>Member Name</h3>
+      <p>PhD Student<br>Research Area</p>
+    </div>
+    <div class="member-card">
+      <div class="avatar">👨‍💻</div>
+      <h3>Member Name</h3>
+      <p>MTech Student<br>Research Area</p>
+    </div>
   </div>
-  <h2>Conference Papers</h2>
-  <div class="pub">
-    <div class="authors">Pankaj K Jain et al.</div>
-    <div class="title">Add conference paper title here</div>
-    <div class="venue">Conference Name, Year</div>
+  <h2>Interns</h2>
+  <div class="members-grid">
+    <div class="member-card">
+      <div class="avatar">👩‍🎓</div>
+      <h3>srishti jain</h3>
+      <p>Intern<br>sstc</p>
+      <p>BTech AIML</p>
+    </div>
   </div>
-  <a class="scholar-link" href="https://scholar.google.com/citations?user=UCbGVLcAAAAJ&hl=en" target="_blank">View All on Google Scholar →</a>
 </div>
 <footer>2026 SIGHT Lab — Signal and Image Generation for Healthcare Technology</footer>
 </body>

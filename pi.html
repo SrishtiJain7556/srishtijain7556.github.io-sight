@@ -1,22 +1,75 @@
 <!DOCTYPE html>
-<html>
-<head><title>PI | SIGHT Lab</title></head>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PI – Dr Pankaj K Jain | SIGHT Lab</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: Georgia, serif; background: #fff; color: #222; }
+  nav { background: #1a3a5c; padding: 0 30px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+  .logo { color:#fff; font-size:1.4rem; font-weight:bold; padding:15px 0; }
+  .logo span { color:#7ec8e3; }
+  nav ul { list-style:none; display:flex; flex-wrap:wrap; }
+  nav ul li a { color:#cde; text-decoration:none; padding:18px 14px; display:block; font-size:0.9rem; font-family:Arial,sans-serif; }
+  nav ul li a:hover { background:#2a5a8c; color:#fff; }
+  .page-title { background:#f4f8fc; padding:30px; border-bottom:2px solid #d0e4f0; }
+  .page-title h1 { font-size:1.8rem; color:#1a3a5c; }
+  .content { max-width:960px; margin:0 auto; padding:40px 30px; }
+  .pi-grid { display:grid; grid-template-columns:220px 1fr; gap:40px; align-items:start; }
+  .pi-photo { background:#d0e4f0; border-radius:8px; height:260px; display:flex; align-items:center; justify-content:center; color:#666; font-family:Arial,sans-serif; font-size:0.85rem; text-align:center; padding:10px; }
+  .pi-info h2 { color:#1a3a5c; font-size:1.6rem; margin-bottom:5px; }
+  .pi-info .title { color:#2a6496; font-family:Arial,sans-serif; font-size:0.95rem; margin-bottom:15px; }
+  .pi-info p { font-family:Arial,sans-serif; line-height:1.8; color:#333; margin-bottom:12px; font-size:0.95rem; }
+  .tags { display:flex; flex-wrap:wrap; gap:8px; margin:15px 0; }
+  .tag { background:#1a3a5c; color:#fff; padding:4px 12px; border-radius:20px; font-size:0.8rem; font-family:Arial,sans-serif; }
+  .links a { display:inline-block; margin-right:12px; color:#2a6496; font-family:Arial,sans-serif; font-size:0.9rem; }
+  h3 { color:#1a3a5c; margin:25px 0 10px; font-size:1.1rem; }
+  footer { background:#1a3a5c; color:#aac; text-align:center; padding:20px; font-family:Arial,sans-serif; font-size:0.85rem; margin-top:40px; }
+  @media(max-width:600px) { .pi-grid { grid-template-columns:1fr; } }
+</style>
+</head>
 <body>
-  <h1>SIGHT</h1>
-  <hr>
-  <a href="index.html">Home</a> |
-  <a href="pi.html">PI</a> |
-  <a href="members.html">Lab Members</a> |
-  <a href="publications.html">Publications</a> |
-  <a href="projects.html">Projects</a> |
-  <a href="news.html">News</a> |
-  <a href="contact.html">Contact</a>
-  <hr>
-  <h2>Principal Investigator</h2>
-  <h3>Dr Pankaj K Jain (PhD)</h3>
-  <p>Dr Pankaj K Jain has over 15 years of experience in AI, machine learning, biomedical engineering, and medical imaging. He earned his PhD from IIT (BHU), Varanasi.</p>
-  <p>He started his career as a Lecturer at NIT Raipur. Later he joined Washington University in St. Louis as a Postdoctoral Research Associate in precision oncology and radiotheranostics.</p>
-  <p>He has also worked at Jio Institute, Navi Mumbai and IIT Mandi as a Project Scientist on deep learning for carotid artery imaging.</p>
-  <p>He is an Editorial Board Member of BMC Medical Informatics and Decision Making and Associate Editor of The Open Neuroimaging Journal.</p>
+<nav>
+  <div class="logo">SIGHT <span>Lab</span></div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="pi.html">PI</a></li>
+    <li><a href="members.html">Lab Members</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<div class="page-title"><h1>Principal Investigator</h1></div>
+<div class="content">
+  <div class="pi-grid">
+   <img src ="https://lh3.googleusercontent.com/sitesv/AA5AbUD7LGpxgi4oKWAlI83cyT59ZyHqnUVUo9MPGzEor4Gr1rPoaQRBIq5QbX13OzcRMZDlu6-CwKcR31_wRGZl_lxJaomwrW_Q-vW0VKOV1OPb3eHTnrfIvFUy9hC1_bTf_J7Wwcrh6VhwZJx6sSOzeJOGPS9JVlWLTccbvRjsTaTmRSwSMpPghnTerugozblkVKtUdQ_uRllWbkAynKOXWB-3eBMcmSdkzPHpDXc=w1280" width="220" style="border-radius: 8px;">
+    <div class="pi-info">
+      <h2>Dr Pankaj K Jain</h2>
+      <div class="title">PhD | Principal Investigator, SIGHT Lab</div>
+      <div class="tags">
+        <span class="tag">Artificial Intelligence</span>
+        <span class="tag">Medical Imaging</span>
+        <span class="tag">Machine Learning</span>
+        <span class="tag">Biomedical Engineering</span>
+      </div>
+      <p>Dr Pankaj K Jain has over 15 years of experience in academia and research across artificial intelligence, machine learning, biomedical engineering, and medical imaging. He earned his PhD from the Indian Institute of Technology (BHU), Varanasi.</p>
+      <p>He began his academic career as a Lecturer at the National Institute of Technology, Raipur. He later joined Washington University in St. Louis, USA, as a Postdoctoral Research Associate, where he contributed to interdisciplinary research in precision oncology and radiotheranostics.</p>
+      <p>He has also worked with Jio Institute, Navi Mumbai, as a Research Associate in computer vision for medical imaging, and with IIT Mandi as a Project Scientist focusing on deep learning models for carotid artery imaging.</p>
+      <h3>Recognition & Editorial Roles</h3>
+      <p>Dr Jain has been recognized as a keynote speaker at IWSAB 2023, served on the Executive Council of the Washington University Postdoctoral Society, and received awards at conferences hosted by IIT Kanpur and IIT Madras. His research has been published in leading venues including Springer, Elsevier, and MDPI.</p>
+      <p>He serves as an Editorial Board Member of <em>BMC Medical Informatics and Decision Making</em> (Springer Nature) and Associate Editor of <em>The Open Neuroimaging Journal</em> (Bentham Science).</p>
+      <h3>Links</h3>
+      <div class="links">
+        <a href="https://scholar.google.com/citations?user=UCbGVLcAAAAJ&hl=en" target="_blank">Google Scholar</a>
+        <a href="http://www.linkedin.com/in/pankaj-jain-phd-8b606b109" target="_blank">LinkedIn</a>
+        <a href="https://sites.google.com/view/pankajkjain/home" target="_blank">Personal Website</a>
+      </div>
+    </div>
+  </div>
+</div>
+<footer> 2026 SIGHT Lab — Signal and Image Generation for Healthcare Technology</footer>
 </body>
 </html>

@@ -1,18 +1,59 @@
 <!DOCTYPE html>
-<html>
-<head><title>Projects | SIGHT Lab</title></head>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | SIGHT Lab</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: Georgia, serif; background: #fff; color: #222; }
+  nav { background: #1a3a5c; padding: 0 30px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+  .logo { color:#fff; font-size:1.4rem; font-weight:bold; padding:15px 0; }
+  .logo span { color:#7ec8e3; }
+  nav ul { list-style:none; display:flex; flex-wrap:wrap; }
+  nav ul li a { color:#cde; text-decoration:none; padding:18px 14px; display:block; font-size:0.9rem; font-family:Arial,sans-serif; }
+  nav ul li a:hover { background:#2a5a8c; color:#fff; }
+  .page-title { background:#f4f8fc; padding:30px; border-bottom:2px solid #d0e4f0; }
+  .page-title h1 { font-size:1.8rem; color:#1a3a5c; }
+  .content { max-width:960px; margin:0 auto; padding:40px 30px; }
+  .project-card { background:#f4f8fc; border:1px solid #d0e4f0; border-radius:8px; padding:25px; margin-bottom:20px; }
+  .project-card h3 { color:#1a3a5c; font-size:1.1rem; margin-bottom:8px; }
+  .project-card p { font-family:Arial,sans-serif; font-size:0.9rem; color:#444; line-height:1.7; }
+  .badge { display:inline-block; background:#2a6496; color:#fff; font-size:0.75rem; padding:2px 10px; border-radius:20px; margin-bottom:10px; font-family:Arial,sans-serif; }
+  footer { background:#1a3a5c; color:#aac; text-align:center; padding:20px; font-family:Arial,sans-serif; font-size:0.85rem; margin-top:40px; }
+</style>
+</head>
 <body>
-  <h1>SIGHT</h1>
-  <hr>
-  <a href="index.html">Home</a> |
-  <a href="pi.html">PI</a> |
-  <a href="members.html">Lab Members</a> |
-  <a href="publications.html">Publications</a> |
-  <a href="projects.html">Projects</a> |
-  <a href="news.html">News</a> |
-  <a href="contact.html">Contact</a>
-  <hr>
-  <h2>Projects</h2>
-  <p>To be updated soon.</p>
+<nav>
+  <div class="logo">SIGHT <span>Lab</span></div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="pi.html">PI</a></li>
+    <li><a href="members.html">Lab Members</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<div class="page-title"><h1>Projects</h1></div>
+<div class="content">
+  <div class="project-card">
+    <span class="badge">Ongoing</span>
+    <h3>Deep Learning for Carotid Artery Imaging</h3>
+    <p>Development of deep learning models for automated segmentation and analysis of carotid artery images to assist in early diagnosis of cardiovascular conditions.</p>
+  </div>
+  <div class="project-card">
+    <span class="badge">Ongoing</span>
+    <h3>AI in Precision Oncology</h3>
+    <p>Interdisciplinary research combining radiotheranostics and AI-driven imaging tools for personalized cancer treatment planning.</p>
+  </div>
+  <div class="project-card">
+    <span class="badge">Completed</span>
+    <h3>Computer Vision for Medical Imaging</h3>
+    <p>Research on computer vision techniques for automated detection and classification in medical imaging datasets, conducted at Jio Institute, Navi Mumbai.</p>
+  </div>
+</div>
+<footer> 2026 SIGHT Lab — Signal and Image Generation for Healthcare Technology</footer>
 </body>
 </html>

@@ -1,18 +1,65 @@
 <!DOCTYPE html>
-<html>
-<head><title>News | SIGHT Lab</title></head>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News | SIGHT Lab</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: Georgia, serif; background: #fff; color: #222; }
+  nav { background: #1a3a5c; padding: 0 30px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+  .logo { color:#fff; font-size:1.4rem; font-weight:bold; padding:15px 0; }
+  .logo span { color:#7ec8e3; }
+  nav ul { list-style:none; display:flex; flex-wrap:wrap; }
+  nav ul li a { color:#cde; text-decoration:none; padding:18px 14px; display:block; font-size:0.9rem; font-family:Arial,sans-serif; }
+  nav ul li a:hover { background:#2a5a8c; color:#fff; }
+  .page-title { background:#f4f8fc; padding:30px; border-bottom:2px solid #d0e4f0; }
+  .page-title h1 { font-size:1.8rem; color:#1a3a5c; }
+  .content { max-width:960px; margin:0 auto; padding:40px 30px; }
+  .news-item { display:flex; gap:20px; padding:20px 0; border-bottom:1px solid #d0e4f0; align-items:flex-start; }
+  .date { min-width:90px; background:#1a3a5c; color:#fff; text-align:center; padding:8px; border-radius:6px; font-family:Arial,sans-serif; font-size:0.85rem; line-height:1.4; }
+  .news-text h3 { color:#1a3a5c; font-size:1rem; margin-bottom:5px; }
+  .news-text p { font-family:Arial,sans-serif; font-size:0.88rem; color:#555; line-height:1.6; }
+  footer { background:#1a3a5c; color:#aac; text-align:center; padding:20px; font-family:Arial,sans-serif; font-size:0.85rem; margin-top:40px; }
+</style>
+</head>
 <body>
-  <h1>SIGHT</h1>
-  <hr>
-  <a href="index.html">Home</a> |
-  <a href="pi.html">PI</a> |
-  <a href="members.html">Lab Members</a> |
-  <a href="publications.html">Publications</a> |
-  <a href="projects.html">Projects</a> |
-  <a href="news.html">News</a> |
-  <a href="contact.html">Contact</a>
-  <hr>
-  <h2>News</h2>
-  <p>To be updated soon.</p>
+<nav>
+  <div class="logo">SIGHT <span>Lab</span></div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="pi.html">PI</a></li>
+    <li><a href="members.html">Lab Members</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<div class="page-title"><h1>News</h1></div>
+<div class="content">
+  <div class="news-item">
+    <div class="date">2026<br>May</div>
+    <div class="news-text">
+      <h3>SIGHT Lab Website Launched</h3>
+      <p>The official website of the SIGHT Lab — Signal and Image Generation for Healthcare Technology — is now live.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="date">add<br>Date</div>
+    <div class="news-text">
+      <h3>Add News Title Here</h3>
+      <p>Add news description here.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="date">Add<br>Date</div>
+    <div class="news-text">
+      <h3>Add News Title Here</h3>
+      <p>Add news description here.</p>
+    </div>
+  </div>
+</div>
+<footer>2026 SIGHT Lab — Signal and Image Generation for Healthcare Technology</footer>
 </body>
 </html>
